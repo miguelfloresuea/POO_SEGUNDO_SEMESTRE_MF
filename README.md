@@ -14,6 +14,6 @@ Se incluye las actividades y trabajos realizados durante el periodo académico 2
 
 ## Contenido del repositorio
 
-1.
+1.Semana 02 - Ejemplos de POO
 
 
