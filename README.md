@@ -15,5 +15,8 @@ Se incluye las actividades y trabajos realizados durante el periodo académico 2
 ## Contenido del repositorio
 
 1.Semana 02 - Ejemplos de POO
+2.Semana 03 - Ejemplos.
+- Programación Tradicional
+- Programación Orientada a Objetos
 
 
