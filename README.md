@@ -8,7 +8,7 @@ Se incluye las actividades y trabajos realizados durante el periodo académico 2
 **Institución:** Universidad Estatal Amazónica (UEA)  
 **Carrera:** Ingeniería en Tecnologías de la Información y Comunicación  
 **Asignatura:** Programación Orientada a Objetos (UEA-L-UFB-030-A)  
-**Estudiante:** Miguel Angel Flores Yepez
+**Estudiante:** Miguel Angel Flores Yepez  
 **Docente:** Ing. Santiago Israel Nogales Guerrero, Mgs.  
 **Periodo academico:** 2025-2025
 
