@@ -61,3 +61,5 @@ vehiculos = [auto1, moto1]
 # Recorrer la lista y mostrar información de cada vehículo
 for v in vehiculos:
     v.mostrar_info()  # Se llama al metodo correspondiente según el tipo del objeto
+
+
