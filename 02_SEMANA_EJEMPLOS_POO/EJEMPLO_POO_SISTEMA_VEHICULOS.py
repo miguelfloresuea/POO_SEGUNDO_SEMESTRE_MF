@@ -63,3 +63,6 @@ for v in vehiculos:
     v.mostrar_info()  # Se llama al metodo correspondiente según el tipo del objeto
 
 
+
+
+
