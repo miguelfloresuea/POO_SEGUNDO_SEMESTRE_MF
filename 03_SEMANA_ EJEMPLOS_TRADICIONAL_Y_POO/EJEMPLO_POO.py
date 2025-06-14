@@ -15,17 +15,17 @@ class SemanaClimatica:
     def __init__(self):
         self.dias_clima = []
 
-    # Método para agregar datos diarios
+    # Metodo para agregar datos diarios
     def agregar_dia(self, dia, temperatura):
         clima = ClimaDiario(dia, temperatura)
         self.dias_clima.append(clima)
 
-    # Método para calcular el promedio semanal
+    # Metodo para calcular el promedio semanal
     def calcular_promedio(self):
         total = sum(dia.obtener_temperatura() for dia in self.dias_clima)
         return total / len(self.dias_clima)
 
-    # Método para mostrar todos los datos
+    # Metodo para mostrar todos los datos
     def mostrar_datos(self):
         for dia in self.dias_clima:
             print(dia)
