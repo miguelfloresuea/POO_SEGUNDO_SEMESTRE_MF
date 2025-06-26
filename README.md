@@ -18,6 +18,6 @@ Se incluye las actividades y trabajos realizados durante el periodo académico 2
 2. Semana 03 - Ejemplos
 - Programación Tradicional
 - Programación Orientada a Objetos
-3. EjemplosMundoReal_POO
+3. Semana 04 - EjemplosMundoReal_POO
 
 
