@@ -6,5 +6,4 @@ Este programa permite registrar libros en una biblioteca, mostrar el catálogo
 y buscar si un libro específico está disponible o no.  
 Aplica el uso de clases, objetos, tipos de datos y buenas prácticas.
 
-
-![](C:\Users\USUARIO\PycharmProjects\POO_SEGUNDO_SEMESTRE_MF\05_SEMANA_TIPOS_DE_DATOS_IDENTIFICADORES\IMAGEN_CAPTURA_CODIGO\SEMANA_5.jpg)
+![SEMANA_5.jpg](IMAGEN_CAPTURA_CODIGO/SEMANA_5.jpg)
