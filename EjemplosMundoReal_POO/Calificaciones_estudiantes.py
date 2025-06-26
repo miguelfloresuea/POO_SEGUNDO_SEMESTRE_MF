@@ -72,4 +72,5 @@ while True:
 
     else:
         # Si se ingresa una opción no válida
-        print("Opción inválida. Intenta de nuevo.")
+        print("Opción inválida. Intenta de nuevo."
+
