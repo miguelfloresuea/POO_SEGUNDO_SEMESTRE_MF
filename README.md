@@ -19,5 +19,7 @@ Se incluye las actividades y trabajos realizados durante el periodo académico 2
 - Programación Tradicional
 - Programación Orientada a Objetos
 3. Semana 04 - EjemplosMundoReal_POO
+4. Semana 05 - Ejemplo_Tipo_de_Dato_Identificadores
+  
 
 
