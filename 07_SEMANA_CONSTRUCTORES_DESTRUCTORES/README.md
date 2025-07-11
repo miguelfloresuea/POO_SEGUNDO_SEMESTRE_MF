@@ -3,7 +3,7 @@
 **Asignatura:** Programación Orientada a Objetos  
 **Autor:** Miguel Ángel Flores Yépez  
 
-## Explicación del funcionamiento:  
+## EXPLICACIÓN DEL FUNCIONAMIENTO:  
 1. El constructor (__init__) establece los valores iniciales del auto
 2. El destructor (__del__) se asegura de limpiar recursos antes de eliminar el objeto
 3. Los métodos encender/apagar controlan el estado del motor
