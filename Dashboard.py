@@ -40,7 +40,7 @@ def mostrar_menu():
     # Lista con las carpetas principales del proyecto
     carpetas_principales = [
         '02_SEMANA_EJEMPLOS_POO',
-        '03_SEMANA_EJEMPLOS_TRADICIONAL_Y_POO',
+        '03_SEMANA_ EJEMPLOS_TRADICIONAL_Y_POO',
         '04_SEMANA_EjemplosMundoReal_POO',
         '05_SEMANA_TIPOS_DE_DATOS_IDENTIFICADORES',
         '06_SEMANA_DEBER_CLASES_OBJETOS_HERENCIA_ENCAPSULAMIENTO_POLIMORFISMO',
@@ -48,7 +48,7 @@ def mostrar_menu():
     ]
 
     while True:
-        print("\n📚 Menú Principal - Proyecto POO")
+        print("\n Menú Principal - Proyecto POO")
         # Muestra el listado de carpetas con su índice
         for idx, carpeta in enumerate(carpetas_principales, start=1):
             print(f"{idx} - {carpeta}")
@@ -79,7 +79,7 @@ def mostrar_scripts(ruta_carpeta):
     scripts = [f.name for f in os.scandir(ruta_carpeta) if f.is_file() and f.name.endswith('.py')]
 
     while True:
-        print(f"\n📄 Scripts en: {ruta_carpeta}")
+        print(f"\n Scripts en: {ruta_carpeta}")
         # Muestra los scripts encontrados
         for idx, script in enumerate(scripts, start=1):
             print(f"{idx} - {script}")
