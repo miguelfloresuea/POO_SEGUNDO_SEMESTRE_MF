@@ -1,57 +1,40 @@
-
 """
-EJEMPLO, PROGRAMA UTILIZANDO CONSTRUCTORES, DESTRUCTORES Y USO DE BUENAS PRACTICAS DE POO
+EJEMPLO: Programa utilizando constructores, destructores y buenas prácticas de POO
 """
 
-#Creacion de la clase Auto
+# Creación de la clase Auto
 class Auto:
-    def __init__(self, marca, modelo, año):  #Constructor de la clase Auto
-
-        # Atributos inicializados:
-        self.marca = marca  # - marca, modelo, año: características del auto
+    def __init__(self, marca, modelo, año):  # Constructor
+        # Inicializar atributos
+        self.marca = marca
         self.modelo = modelo
         self.año = año
-        self.encendido = False  # encendido: estado del motor (True/False), Motor comienza apagado
-        print(f"Auto {marca} {modelo} ({año}) creado.")  # Mensaje de creación
+        self.encendido = False  # Motor comienza apagado
+        print(f"Auto {marca} {modelo} ({año}) creado.")
 
-    def __del__(self):  #Destructor de la clase Auto
-        #Se ejecuta automáticamente cuando el objeto es eliminado.
-
-        # Funcionamiento:
-        # 1. Verifica si el auto está encendido
-        # 2. Si está encendido, lo apaga
-        # 3. Muestra mensaje de destrucción
+    def __del__(self):  # Destructor
+        # Se ejecuta automáticamente cuando el objeto se destruye
+        # Si el auto está encendido, lo apaga antes de destruirse
         if self.encendido:
-            self.apagar()  # Asegura que el auto se apague antes de destruirse
+            self.apagar()
         print(f"Auto {self.marca} {self.modelo} destruido.")
 
-    def encender(self): #Metodo para encender el auto
-
-        # Comportamiento:
-        # - Si el auto está apagado, lo enciende
-        # - Si ya está encendido, muestra mensaje
+    def encender(self):
         if not self.encendido:
             self.encendido = True
             print(f"Auto {self.marca} {self.modelo} encendido.")
         else:
             print(f"¡El auto {self.marca} {self.modelo} ya está encendido!")
 
-    def apagar(self):   #Metodo para apagar el auto
-
-        # Comportamiento:
-        # - Si el auto está encendido, lo apaga
-        # - Si ya está apagado, muestra mensaje
+    def apagar(self):
         if self.encendido:
             self.encendido = False
             print(f"Auto {self.marca} {self.modelo} apagado.")
         else:
             print(f"¡El auto {self.marca} {self.modelo} ya está apagado!")
 
-    def mostrar_info(self): #Muestra información detallada del auto
-
-        # Retorna:
-        # Cadena  con marca, modelo, año y estado
-        estado = "ENCENDIDO" if self.encendido else "APAGADO"
+    def mostrar_info(self):
+        estado = "ENCENDIDO" si self.encendido else "APAGADO"
         return (f"\nInformación del auto:\n"
                 f"Marca: {self.marca}\n"
                 f"Modelo: {self.modelo}\n"
@@ -61,27 +44,30 @@ class Auto:
 
 # Ejemplo de uso principal
 if __name__ == "__main__":
-    # Creación de un auto nuevo
+    # Crear un auto nuevo
     mi_auto = Auto("Chevrolet", "DMAX", 2025)
 
     # Operaciones con el auto
-    mi_auto.encender()  # Encender el auto
-    print(mi_auto.mostrar_info())  # Mostrar información
+    mi_auto.encender()
+    print(mi_auto.mostrar_info())
 
-    mi_auto.apagar()  # Apagar el auto
-    print(mi_auto.mostrar_info())  # Mostrar información
+    mi_auto.apagar()
+    print(mi_auto.mostrar_info())
 
-    # El destructor se llamará automáticamente al eliminar el objeto
-    del mi_auto
+    # Al finalizar el programa, el destructor __del__ se llamará automáticamente
+    # cuando el objeto mi_auto quede sin referencias.
+    # NO es necesario llamar explícitamente: del mi_auto
 
-    # Este mensaje aparecerá después de que el auto sea destruido
+    # Si deseas forzar que se destruya antes, podrías hacerlo así:
+    # del mi_auto
+
     print("Programa terminado.")
 
 """
-Explicación del funcionamiento:
-1. El constructor (__init__) establece los valores iniciales del auto
-2. El destructor (__del__) se asegura de limpiar recursos antes de eliminar el objeto
-3. Los métodos encender/apagar controlan el estado del motor
-4. mostrar_info() proporciona una vista detallada del estado actual
-5. El bloque if __name__ , permite ejecutar el ejemplo solo cuando se ejecuta este archivo directamente
+Explicación:
+1. El constructor (__init__) inicializa el objeto.
+2. El destructor (__del__) limpia recursos al destruirse el objeto.
+3. Los métodos encender/apagar gestionan el estado del auto.
+4. mostrar_info() devuelve una descripción del auto.
+5. El bloque if __name__ permite que el ejemplo solo se ejecute si se corre directamente el archivo.
 """
