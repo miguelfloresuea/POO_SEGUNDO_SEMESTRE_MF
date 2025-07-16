@@ -23,6 +23,7 @@ Se incluye las actividades y trabajos realizados durante el periodo académico 2
 5. Semana 05 - EjemplosMundoReal_POO
 6. Semana 06 - Clases_Objetos_Herencia_Encapsulamiento_Polimorfismo
 7. Semana 07 - Constructores_Destructores
+8. Semana 08 - Dashboard.py
   
   
 
