@@ -1,4 +1,4 @@
-# DEBER SEMANA 07, USO DE CONSTRUCTORES, DESTRUCTORES Y BUENAS PRÁCTICAS DE POO
+# DEBER SEMANA 08, USO DE CONSTRUCTORES, DESTRUCTORES Y BUENAS PRÁCTICAS DE POO
 **Programa:** DASHBOARD
 **Asignatura:** Programación Orientada a Objetos  
 **Tema:** 08 Semana, organización del proyecto
