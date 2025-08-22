@@ -1,4 +1,4 @@
-# DEBER SEMANA 09, SISTEMA DE GESTIÒN DE INVENTARIO  
+# DEBER SEMANA 10, SISTEMA DE GESTIÒN DE INVENTARIO - MEJORADO  
 **Programa:** Gestión de inventario  
 **Asignatura:** Programación Orientada a Objetos  
 **Semana:** 10  
