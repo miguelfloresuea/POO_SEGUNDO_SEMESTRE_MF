@@ -47,6 +47,7 @@ def mostrar_menu():
         '07_SEMANA_CONSTRUCTORES_DESTRUCTORES'
         '08_SEMANA_DASHBOARD'
         '09_SEMANA_GESTION_INVENTARIO_POO'
+        '10_SEMANA_GESTION_INVENTARIO_MEJORADO'
     ]
 
     while True:
