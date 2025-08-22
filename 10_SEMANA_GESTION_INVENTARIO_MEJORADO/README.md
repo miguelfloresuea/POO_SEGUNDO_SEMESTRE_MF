@@ -1,5 +1,5 @@
 # DEBER SEMANA 10, SISTEMA DE GESTIÒN DE INVENTARIO - MEJORADO  
-**Programa:** Gestión de inventario  
+**Programa:** Gestión de inventario - mejorado  
 **Asignatura:** Programación Orientada a Objetos  
 **Semana:** 10  
 **Autor:** Miguel Ángel Flores Yépez  
