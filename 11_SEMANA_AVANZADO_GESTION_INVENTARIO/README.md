@@ -12,7 +12,7 @@
 ## Características Principales
 
 * **Arquitectura Orientada a Objetos**: El sistema está claramente dividido en clases (`Producto`, `Inventario`), lo que facilita su comprensión y futuras expansiones.
-* **Gestión Eficiente de Datos**: Utiliza un **diccionario** de Python para almacenar el inventario, usando el ID del producto como clave. Esto permite que las operaciones de acceso, inserción y eliminación se realicen en tiempo constante (`O(1)`), garantizando un alto rendimiento sin importar el tamaño del inventario.
+* **Gestión Eficiente de Datos**: Utiliza un **diccionario** de Python para almacenar el inventario, usando el ID del producto como clave. Esto permite que las operaciones de acceso, inserción y eliminación se realicen en tiempo constante, garantizando un alto rendimiento sin importar el tamaño del inventario.
 * **Persistencia de Datos**: El estado del inventario se guarda automáticamente en un archivo de texto (`inventario.txt`). Los datos se cargan al iniciar la aplicación y se actualizan con cada modificación.
 * **Interfaz de Usuario Interactiva**: Proporciona un menú de consola claro y sencillo que guía al usuario a través de las diferentes funcionalidades disponibles.
 * **Manejo de Errores**: La aplicación está diseñada para gestionar entradas de usuario incorrectas y otros posibles errores de tiempo de ejecución de manera controlada.
