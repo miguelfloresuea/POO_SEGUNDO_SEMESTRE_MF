@@ -1,4 +1,4 @@
-# DEBER SEMANA 10, SISTEMA DE GESTIÒN DE INVENTARIO - AVANZADO  
+# DEBER SEMANA 11, SISTEMA DE GESTIÒN DE INVENTARIO - AVANZADO  
 **Programa:** Gestión de inventario - avanzado  
 **Asignatura:** Programación Orientada a Objetos  
 **Semana:** 11  
