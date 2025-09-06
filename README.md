@@ -14,16 +14,17 @@ Se incluye las actividades y trabajos realizados durante el periodo académico 2
 
 ## Contenido del repositorio
 
-1. Semana 02 - Ejemplos de POO  
-2. Semana 03 - Ejemplos
-- Programación Tradicional
-- Programación Orientada a Objetos
-3. Semana 04 - EjemplosMundoReal_POO
-4. Semana 05 - Ejemplo_Tipo_de_Dato_Identificadores
-5. Semana 05 - EjemplosMundoReal_POO
-6. Semana 06 - Clases_Objetos_Herencia_Encapsulamiento_Polimorfismo
-7. Semana 07 - Constructores_Destructores
-8. Semana 08 - Dashboard.py
+        '02_SEMANA_EJEMPLOS_POO',
+        '03_SEMANA_ EJEMPLOS_TRADICIONAL_Y_POO',
+        '04_SEMANA_EjemplosMundoReal_POO',
+        '05_SEMANA_TIPOS_DE_DATOS_IDENTIFICADORES',
+        '06_SEMANA_DEBER_CLASES_OBJETOS_HERENCIA_ENCAPSULAMIENTO_POLIMORFISMO',
+        '07_SEMANA_CONSTRUCTORES_DESTRUCTORES'
+        '08_SEMANA_DASHBOARD'
+        '09_SEMANA_GESTION_INVENTARIO_POO'
+        '10_SEMANA_GESTION_INVENTARIO_MEJORADO'
+        '11_SEMANA_AVANZADO_GESTION_INVENTARIO'
+        '12_SEMANA_BIBLIOTECA_DIGITAL'
   
   
 
