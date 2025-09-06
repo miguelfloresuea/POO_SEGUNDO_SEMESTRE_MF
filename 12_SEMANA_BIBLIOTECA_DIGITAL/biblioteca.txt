@@ -1,0 +1,16 @@
+{
+    "libros": {},
+    "usuarios": {
+        "1004498315": {
+            "nombre": "ANGEL YEPEZ",
+            "libros_prestados": [
+                {
+                    "titulo": "MATEMATICA",
+                    "autor": "UEA",
+                    "categoria": "EDUCACION",
+                    "isbn": "103"
+                }
+            ]
+        }
+    }
+}
