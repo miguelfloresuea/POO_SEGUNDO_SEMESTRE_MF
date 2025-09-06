@@ -1,4 +1,4 @@
-# DEBER, SISTEMA DE GESTIÒN DE BIBLIOTECA DIGITAL  
+# DEBER, SISTEMA DE GESTIÓN DE BIBLIOTECA DIGITAL  
 **Programa:** Gestión de Bilioteca Digital  
 **Asignatura:** Programación Orientada a Objetos  
 **Semana:** 12  
