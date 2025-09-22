@@ -52,6 +52,7 @@ def mostrar_menu():
         '12_SEMANA_BIBLIOTECA_DIGITAL'
         '13_SEMANA_APLICACION_GUI_BASICA'
         '14_SEMANA_COMPONENTES_CONTENEDORES'
+        '15_SEMANA_LISTA_DE_TAREAS'
     ]
 
     while True:
