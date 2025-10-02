@@ -2,7 +2,7 @@
 
 **Programa:** Sistema de Gestión de Inventario  
 **Asignatura:** Programación Orientada a Objetos  
-**Semana:** 15  
+**Semana:** 16  
 **Autores:**  
 Miguel Ángel Flores Yépez  
 Jessica Paola Pesantez Tuapante
